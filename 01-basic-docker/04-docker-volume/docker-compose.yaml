@@ -1,12 +1,11 @@
 version: '3.1'
 services:
-  app:
-    restart: always
-    build:
-      context: ./app
-      dockerfile: Dockerfile
-    ports:
-      - 3000:3000
+  # This is deployed to Google Cloud Artifact Repository
+  # app:
+  #   image: asia-southeast2-docker.pkg.dev/mystical-atlas-409504/techworld-app-express-mongo/techworld-app-express-mongo:1.0.1
+  #   restart: always
+  #   ports:
+  #     - 3000:3000
   mongo:
     image: mongo
     restart: always
