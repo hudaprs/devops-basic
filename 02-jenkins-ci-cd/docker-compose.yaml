@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    image: asia-southeast2-docker.pkg.dev/mystical-atlas-409504/devops/nextjs-docker:1.0.0
+    restart: always
+    ports:
+      - 3000:3000
