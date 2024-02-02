@@ -1,5 +1,5 @@
 {
-  "name": "02-ci-cd",
+  "name": "05-jenkins-ci-cd",
   "version": "0.1.0",
   "private": true,
   "scripts": {
